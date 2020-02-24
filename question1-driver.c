@@ -19,12 +19,12 @@ int erase(int an_array[], int arrLen, int pos) {
 
 int main() {
   int index;
-	int size;
+  int size;
   int value;
   int array[LEN]={0};
 
   for (int i = 0; i < LEN; i++) {
-		array[i]=i;
+    array[i]=i;
 	}
 	printf("Original array: ");
 	// call the print function to print the original array here
