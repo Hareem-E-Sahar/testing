@@ -2,19 +2,19 @@
 #include <stdlib.h>
 #define LEN 20
 void setAt(int an_array[], int arrLen, int idx, int val) {
-	// complete the function body
+  // complete the function body
 }
 
 int *subArrPointer(const int an_array[], int arrLen, int idx, int siz) {
-	// complete the function body
+  // complete the function body
 }
 
 int* insert(int an_array[], int arrLen, int pos, int val) {
-	// complete the function body
+  // complete the function body
 }
 
 int erase(int an_array[], int arrLen, int pos) {
-	// complete the function body
+  // complete the function body
 }
 
 int main() {
