@@ -25,7 +25,7 @@ int main() {
 
   for (int i = 0; i < LEN; i++) {
     array[i]=i;
-	}
+  }
   printf("Original array: ");
   // call the print function to print the original array here
   printf("SET-AT\n");
