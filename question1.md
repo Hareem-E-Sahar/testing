@@ -80,13 +80,17 @@ reverses the elements in the given squeue. If the squeue was a->b->c->d , where 
 and last points to d , calling reverse would change the squeue contents to d->c->b->a , and make
 first point to d and last point to a .
 ```
-You are provided with a driver (main) to help you run the program similar to the way you did in assignment 4.
+You are provided with a driver (main) to help you run the program similar to
+the way you did in assignment 4.
 
 ### Question2
 The follwoing table shows the daily flights from one city to another:
 ```
 Departure time     Arrival time
+```
+```
  8:00 am 	   10:16 am 
+```
  9:43 am 	   11:52 am 
 11:19 am            1:31 pm 
 12:47 pm	    3:00 pm
@@ -96,21 +100,23 @@ Departure time     Arrival time
  9:45 pm           11:58 pm
 ```
 
-Write a program that asks user to enter a time in hours and minutes, expressed using the 24-hour clock.
-The program then displays the departure and arrival times for the flight whose departure time is closest 
-to that entered by the user:
+Write a program that asks user to enter a time in hours and minutes, expressed
+using the 24-hour clock. The program then displays the departure and arrival times
+for the flight whose departure time is closest to that entered by the user:
 Enter a 24-hour time: 13:15
 Closest departure time is 12:47 pm , arriving at 3:00 pm 
 
-The daily flight schedules shall be stored in a single array whose elements are structures. Each structure
-contains a departure time and the corresponding arrival time. Each time will be an integer representing the 
-number of minutes since midnight. The program shall implement a search function that uses a loop to search 
+The daily flight schedules shall be stored in a single array whose elements are
+structures. Each structure contains a departure time and the corresponding arrival
+time. Each time will be an integer representing the number of minutes since midnight. 
+The program shall implement a search function that uses a loop to search 
 the array for the departure time closest to the time entered by the user.
 ```
 int searchFlight(struct schedule *array, int N, int userTime)
 ```
-Hint: Convert the input into a time expressed in minutes and , since midnight , and compare it to the departure
-times also expressed in a similar way. For example, 13:15 is 13X60+15=795 minutes since midnight, which is closest
-to 12:47 pm (767 minutes since midnight).
+Hint: Convert the input into a time expressed in minutes and , since midnight ,
+and compare it to the departure times also expressed in a similar way. For example,
+13:15 is 13X60+15=795 minutes since midnight, which is closest to 12:47 pm
+i.e. 767 minutes since midnight.
 
 
