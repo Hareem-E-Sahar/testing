@@ -79,7 +79,7 @@ void reverse(Squeue* squeue);
 reverses the elements in the given squeue. If the squeue was a->b->c->d , where first points to a
 and last points to d , calling reverse would change the squeue contents to d->c->b->a , and make
 first point to d and last point to a .
-```
+
 You are provided with a driver (main) to help you run the program similar to
 the way you did in assignment 4.
 
@@ -87,8 +87,7 @@ the way you did in assignment 4.
 The follwoing table shows the daily flights from one city to another:
 ```
 Departure time     Arrival time
-```
-```
+
  8:00 am 	   10:16 am 
  9:43 am 	   11:52 am 
 11:19 am            1:31 pm 
